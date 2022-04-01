@@ -9,16 +9,16 @@ def index():
 @app.route('/predict-emotion', methods=["POST"])
 def predict_emotion():
     
-    # Get Input Text from POST Request
+    # Obtener el texto ingresado del requerimiento POST.
    
     
     if not input_text:
-        # Response to send if the input_text is undefined
+        # Respuesta para enviar si input_text está indefinido.
        
         
-        # Response to send if the input_text is not undefined
+        # Respuesta para enviar si input_text no está indefinido.
         
-        # Send Response         
+        # Enviar respuesta.         
         
        
 app.run(debug=True)

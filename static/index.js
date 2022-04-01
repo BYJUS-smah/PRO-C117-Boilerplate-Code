@@ -1,31 +1,31 @@
-//Create date variable
+//Crear la variable date - (fecha).
 
 
-//Load HTML DOM
+//Cargar HTML DOM.
 
-//Define variable to store predicted emotion
+//Definir la variable para almacenar la emoción predecida.
 
 
-//HTML-->JavaScript--->Flask
-//Flask--->JavaScript--->HTML
+//HTML-->JavaScript--->Flask.
+//Flask--->JavaScript--->HTML.
 
-//jQuery selector and click action
+//Selector jQuery y la acción click.
 
 $(function () {
     $("#predict_button").click(function () {
-        //AJAX call
+        //Llamada a AJAX 
 
         $.ajax({
             
             
               {
                 
-                // Result Received From Flask ----->JavaScript
+                // Resultado recibido de Flask ----->JavaScript
                 
-                // Display Result Using JavaScript----->HTML
+                // Mostrar resultado usando JavaScript----->HTML
                 
             },
-            //Error function
+            //Función error 
             
         });
     });
